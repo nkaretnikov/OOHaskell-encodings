@@ -24,6 +24,13 @@ executable SubtypeToAlgebraic
   default-language: Haskell2010
   main-is:
     SubtypeToAlgebraic.hs
-  -- other-modules:
   build-depends:
-    base  >=4.8 && <4.9
+    base >=4.8 && <4.9
+
+executable ObjectDataToTailPolymorphic
+  hs-source-dirs:   src
+  default-language: Haskell2010
+  main-is:
+    ObjectDataToTailPolymorphic.hs
+  build-depends:
+    base >=4.8 && <4.9
