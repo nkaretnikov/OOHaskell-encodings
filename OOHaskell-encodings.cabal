@@ -1,0 +1,29 @@
+name:          OOHaskell-encodings
+category:      Language
+version:       0.1.0.0
+homepage:      http://code.haskell.org/OOHaskell/
+license:       MIT
+license-file:  LICENSE.md
+author:        Oleg Kiselyov, Ralf Laemmel, Keean Schupke
+maintainer:    nikita@karetnikov.org, nkaretnikov@ptsecurity.com
+copyright:     2004 Oleg Kiselyov, Ralf Laemmel, Keean Schupke
+build-type:    Simple
+cabal-version: >=1.10
+synopsis:      Various encodings from the OOHaskell paper
+-- description:         
+
+extra-source-files:
+  README.md
+
+source-repository head
+  type:     git
+  location: https://github.com/nkaretnikov/OOHaskell-encodings
+
+executable SubtypeToAlgebraic
+  hs-source-dirs:   src
+  default-language: Haskell2010
+  main-is:
+    SubtypeToAlgebraic.hs
+  -- other-modules:
+  build-depends:
+    base  >=4.8 && <4.9
