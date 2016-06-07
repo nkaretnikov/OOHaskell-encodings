@@ -34,3 +34,11 @@ executable ObjectDataToTailPolymorphic
     ObjectDataToTailPolymorphic.hs
   build-depends:
     base >=4.8 && <4.9
+
+executable TailPolymorphicFuncObjects
+  hs-source-dirs:   src
+  default-language: Haskell2010
+  main-is:
+    TailPolymorphicFuncObjects.hs
+  build-depends:
+    base >=4.8 && <4.9
