@@ -58,3 +58,11 @@ executable SubtypesAsRecordTypesWithOverloading
     SubtypesAsRecordTypesWithOverloading.hs
   build-depends:
     base >=4.8 && <4.9
+
+executable ExistQuant
+  hs-source-dirs:   src
+  default-language: Haskell2010
+  main-is:
+    ExistQuant.hs
+  build-depends:
+    base >=4.8 && <4.9
